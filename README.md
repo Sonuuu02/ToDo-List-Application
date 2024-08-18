@@ -54,9 +54,9 @@ Installation-
 	  •	For the command-line version:
      java -jar target/todo-list-application.jar
 
-  	•	For the web version:
-    	•	Deploy the project on Apache Tomcat.
-  	  •	Access the application via http://localhost:8080/viewToDoList.
+  	•    For the web version:
+    	1. Deploy the project on Apache Tomcat.
+  	2. Access the application via http://localhost:8080/viewToDoList.
 
 
 Usage
