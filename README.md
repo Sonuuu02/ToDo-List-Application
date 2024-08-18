@@ -40,21 +40,18 @@ Prerequisites-
 
 Installation-
 
-	1.	Clone the repository: 
+1. Clone the repository: 
      git clone https://github.com/your-username/todo-list-application.git
 
-  2.	Set up MySQL:
+2. Set up MySQL:
   	•	Create a database named todo_list.
   	•	Update the application.properties file with your MySQL username and password.
 
-  3.	Build the project:
+3. Build the project:
      mvn clean install
 
-  4.	Run the application:
-	  •	For the command-line version:
-     java -jar target/todo-list-application.jar
-
-  	•    For the web version:
+4. Run the application:
+   	•     For the web version:
     	1. Deploy the project on Apache Tomcat.
   	2. Access the application via http://localhost:8080/viewToDoList.
 
@@ -63,11 +60,11 @@ Usage
 
 Web Interface-
 
-	1.	View Tasks: See the list of tasks on the homepage.
-	2.	Edit a Task: Click the “Edit” button next to the task, make changes, and save.
-  3.  Add a Task: click on the "Add task" button on the navbar to add new tasks in the list.
-	4.	Mark as Complete: Click on the "Mark as complete" to see the full list of task and you can check the button of Complete and incomplete the task to mark it as done or not done.
-	5.	Delete a Task: Click on the “Delete” button on the navbar to view the list of tasks and remove it from the list.
+1.	View Tasks: See the list of tasks on the homepage.
+2.	Edit a Task: Click the “Edit” button next to the task, make changes, and save.
+3.	Add a Task: click on the "Add task" button on the navbar to add new tasks in the list.
+4.	Mark as Complete: Click on the "Mark as complete" to see the full list of task and you can check the button of Complete and incomplete the task to mark it as done or not done.
+5.	Delete a Task: Click on the “Delete” button on the navbar to view the list of tasks and remove it from the list.
 
 
 Contributing-
